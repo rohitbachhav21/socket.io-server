@@ -3,7 +3,7 @@ const { Server } = require("socket.io");
 
 const httpServer = createServer();
 const io = new Server(httpServer, {
-    cors: "http://localhost:3000/",
+    cors: "https://t-three.netlify.app/",
 });
 
 const allUsers = {};
